@@ -1,0 +1,127 @@
+body {
+    scroll-behavior: smooth;
+}
+.header-image {
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.badge-rating {
+    color:white;
+    background-color:#9f99f1;
+    font-size: 1.125em
+}
+.badge-price {
+    color:white;
+    background-color: #BFBDDB;
+    font-size: 1.125em
+}
+.badge-delivery {
+    color: black;
+    font-size: 1.125rem;
+    font-weight: normal;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 0.25rem;
+}
+.information {
+    padding: 1rem 0.5rem 1rem 1.5rem;
+    border: 1px solid #BFBDDB;
+    background-color: var(--white);
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    .info-icon {
+        font-size: 1.25rem;
+    }
+}
+#navigation {
+    margin: 16px 16px 16px 0;
+    border: 1px solid #BFBDDB;
+    list-style-type: none;
+    background-color: #ffffff;
+    border-radius: 0.25rem;
+    padding: 0;
+    font-size: 18px;
+    li {
+        padding: 1rem 1.5rem;
+    }
+    a {
+        cursor: pointer;
+        width: 100%;
+        display:block;
+    }
+    .active {
+        color: #BFBDDB;
+        font-weight: bold;
+    }
+}
+.fixed {
+    position: sticky;
+    top: 70px;
+}
+.menu-list {
+    padding: 10px 0 10px 10px;
+    //margin-top: 10px;
+    //background-color: #BFBDDB;
+}
+.category {
+    padding: 0;
+    margin-bottom: 50px;
+    h2 {
+        padding-bottom: 0.5rem;
+    }
+}
+.menu-link, .menu-link:hover {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+.center-block {
+    width: 40%;
+    margin: 0 auto;
+}
+.instructions {
+    background-color: #eaeaea;
+    resize: vertical;
+    max-height: 175px;
+    min-height: 54px;
+    overflow-y: hidden;
+    &:focus {
+        outline: none !important;
+        border-color: #BFBDDB;
+        box-shadow: 0 0 10px #BFBDDB;
+    }
+}
+.menu-card {
+    padding: 10px;
+    margin-bottom: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    img {
+        height:100px;
+        width:100px;
+        float:right;
+        border-radius: 0.25rem;
+    }
+}
+h3 > i {
+    //color: #9561e2;
+    color: #BFBDDB;
+}
+.itemTitle{
+    font-weight: bold;
+}
+.itemDescription{
+    font-weight: lighter;
+}
+.itemPrice{
+    font-weight: bold;
+}

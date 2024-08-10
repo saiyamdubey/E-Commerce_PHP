@@ -1,0 +1,18 @@
+.restaurant-cart {
+    padding: 1rem;
+    border: 1px solid #BFBDDB;
+    background-color: var(--white);
+    border-radius: 0.25rem;
+    position: sticky;
+    top: 70px;
+    h3 {
+        color: #BFBDDB;
+    }
+    p {
+        color: var(--gray);
+    }
+}
+.error {
+    position: sticky;
+    top: 235px;
+}
